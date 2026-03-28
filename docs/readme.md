@@ -52,7 +52,7 @@ Metodología: Kanban (GitHub Projects)
 
 Equipo de Desarrollo:
 
-Valentina (Nagisa18) - Gestión de Repositorioz, Lógica Base e interfaz. RAMA(feature-eliminar-producto)
+Valentina (Nagisa18) - Gestión de Repositorios, Lógica Base e interfaz. RAMA(feature-eliminar-producto)
 
 Yulian Gomez - Funcionalidad de Actualización. RAMA(feature-actualizar-stock)
 
