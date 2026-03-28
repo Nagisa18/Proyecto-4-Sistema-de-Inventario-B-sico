@@ -19,7 +19,7 @@ Estructura del Proyecto
 PROYECTO-4-SISTEMA-DE-INVENTARIO-B-SICO/
 ├── docs/           # Documentación adicional y manuales.
 ├── src/            # Código fuente del sistema.
-    |__utils/
+    |__utils/       # Validaciones y herramientas.
     |   |_validaciones.py
 │   ├── inventory.py  # Lógica de las clases Producto e Inventario.
 │   └── main.py       # Interfaz de usuario (Menú interactivo).
@@ -49,3 +49,28 @@ Lenguaje: Python 3.x
 Gestión de Versiones: Git & GitHub
 
 Metodología: Kanban (GitHub Projects)
+
+Equipo de Desarrollo:
+
+Valentina (Nagisa18) - Gestión de Repositorioz, Lógica Base e interfaz. RAMA(feature-eliminar-producto)
+
+Yulian Gomez - Funcionalidad de Actualización. RAMA(feature-actualizar-stock)
+
+Luis Felipe - Implementación de Clase Producto. RAMA(feature-agregar-producto)
+
+Jorge Alvear -test basico y supervisor. RAMA (feature-test-basico)
+
+Ejemplo de Ejecución:
+
+--- MENÚ DE INVENTARIO ---
+1. Agregar Producto
+2. Actualizar Stock
+3. Eliminar Producto
+4. Mostrar Inventario
+5. Salir
+Seleccione una opción: 4
+
+PRODUCTO    | CANTIDAD | PRECIO
+--------------------------------
+Arroz       | 50       | 2500
+Aceite      | 12       | 8500
