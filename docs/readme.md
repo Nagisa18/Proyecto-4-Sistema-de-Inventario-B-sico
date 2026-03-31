@@ -19,13 +19,12 @@ Estructura del Proyecto
 PROYECTO-4-SISTEMA-DE-INVENTARIO-B-SICO/
 ├── docs/           # Documentación adicional y manuales.
 ├── src/            # Código fuente del sistema.
-    |__utils/       # Validaciones y herramientas.
-    |   |_validaciones.py
+    |   
 │   ├── inventory.py  # Lógica de las clases Producto e Inventario.
 │   └── main.py       # Interfaz de usuario (Menú interactivo).
 ├── tests/          # Pruebas automatizadas.
-│   └── test_basico.py
-└── .gitignore      # Archivos excluidos de Git.
+   └── test_basico.py
+
 
 Instalación y Uso
 
