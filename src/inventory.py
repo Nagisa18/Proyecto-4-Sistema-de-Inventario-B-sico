@@ -42,22 +42,18 @@ class Inventario:
                 print(p)
             print("------------------------------------\n")
 
+
 # --- Bloque de prueba ---
 if __name__ == "__main__":
     mi_repo = Inventario()
     
-    # Agregar productos
     mi_repo.agregar_producto("Arroz", 50, 1500.0)
     mi_repo.agregar_producto("Aceite", 10, 8500.0)
     
-    #Ver inventario
     mi_repo.mostrar_inventario()
     
-    #Actualizar stock
     mi_repo.actualizar_stock("Arroz", 45)
     
-    #Eliminar un producto
     mi_repo.eliminar_producto("Aceite")
     
-    #Ver resultado final
     mi_repo.mostrar_inventario()
